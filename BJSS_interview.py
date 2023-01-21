@@ -31,4 +31,3 @@ def test_LBTT():
     assert LBTT_Calculator(0,tax_bands) == 0
     assert LBTT_Calculator(500000,tax_bands) == 23350
     assert LBTT_Calculator(1000000,tax_bands) == 78350
-    #assert False
